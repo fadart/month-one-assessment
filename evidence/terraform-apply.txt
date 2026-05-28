@@ -1,0 +1,43 @@
+[0m[1maws_vpc.main: Refreshing state... [id=vpc-0b49dbb67c5370b57][0m
+[0m[1maws_eip.nat_1: Refreshing state... [id=eipalloc-00a1aad6b6949a869][0m
+[0m[1maws_eip.nat_2: Refreshing state... [id=eipalloc-0b97feca2efdd054f][0m
+[0m[1maws_internet_gateway.main: Refreshing state... [id=igw-03667ef15b5785c6c][0m
+[0m[1maws_subnet.public_1: Refreshing state... [id=subnet-06a47d8aab188ad34][0m
+[0m[1maws_subnet.public_2: Refreshing state... [id=subnet-0fce716c91b55a636][0m
+[0m[1maws_subnet.private_1: Refreshing state... [id=subnet-00763c9025a07047b][0m
+[0m[1maws_security_group.bastion: Refreshing state... [id=sg-0bc3dfd63ee1efa05][0m
+[0m[1maws_subnet.private_2: Refreshing state... [id=subnet-06a56c4177ecf07b0][0m
+[0m[1maws_lb_target_group.web: Refreshing state... [id=arn:aws:elasticloadbalancing:us-east-1:035786426828:targetgroup/techcorp-web-tg/5042e9ce52f310d1][0m
+[0m[1maws_route_table.public: Refreshing state... [id=rtb-0b1d65c74487ce837][0m
+[0m[1maws_nat_gateway.nat_2: Refreshing state... [id=nat-0d0c65a872ee92b08][0m
+[0m[1maws_nat_gateway.nat_1: Refreshing state... [id=nat-081b9fd1f3b12de04][0m
+[0m[1maws_security_group.web: Refreshing state... [id=sg-04c1e3864a21d91fa][0m
+[0m[1maws_instance.bastion: Refreshing state... [id=i-0bd61fcb5b29a5ef6][0m
+[0m[1maws_route_table_association.public_1: Refreshing state... [id=rtbassoc-0853b6e7d0e8b729c][0m
+[0m[1maws_route_table_association.public_2: Refreshing state... [id=rtbassoc-0a2485ae9830826eb][0m
+[0m[1maws_route_table.private_2: Refreshing state... [id=rtb-09a3bf116d3270014][0m
+[0m[1maws_route_table.private_1: Refreshing state... [id=rtb-01eda751828a3b42e][0m
+[0m[1maws_security_group.database: Refreshing state... [id=sg-043d8c809a50edc31][0m
+[0m[1maws_lb.main: Refreshing state... [id=arn:aws:elasticloadbalancing:us-east-1:035786426828:loadbalancer/app/techcorp-alb/b4c359a1bfd21561][0m
+[0m[1maws_instance.web_2: Refreshing state... [id=i-0ce16a5d3ee4ff414][0m
+[0m[1maws_instance.web_1: Refreshing state... [id=i-04168df3bbe9e4bad][0m
+[0m[1maws_route_table_association.private_2: Refreshing state... [id=rtbassoc-0009766ab166d2aa7][0m
+[0m[1maws_route_table_association.private_1: Refreshing state... [id=rtbassoc-03fb3d6d113ddab6f][0m
+[0m[1maws_instance.database: Refreshing state... [id=i-0ea2843745619b0a6][0m
+[0m[1maws_lb_listener.http: Refreshing state... [id=arn:aws:elasticloadbalancing:us-east-1:035786426828:listener/app/techcorp-alb/b4c359a1bfd21561/6e58c3eeff9a4f59][0m
+[0m[1maws_eip.bastion: Refreshing state... [id=eipalloc-0ae7cdf079ddacc32][0m
+[0m[1maws_lb_target_group_attachment.web_2: Refreshing state... [id=arn:aws:elasticloadbalancing:us-east-1:035786426828:targetgroup/techcorp-web-tg/5042e9ce52f310d1-20260527042753044900000009][0m
+[0m[1maws_lb_target_group_attachment.web_1: Refreshing state... [id=arn:aws:elasticloadbalancing:us-east-1:035786426828:targetgroup/techcorp-web-tg/5042e9ce52f310d1-20260527042752686700000008][0m
+
+[0m[1m[32mNo changes.[0m[1m Your infrastructure matches the configuration.[0m
+
+[0mTerraform has compared your real infrastructure against your configuration
+and found no differences, so no changes are needed.
+[0m[1m[32m
+Apply complete! Resources: 0 added, 0 changed, 0 destroyed.[0m
+[0m[1m[32m
+Outputs:
+
+[0malb_dns_name = "techcorp-alb-2002678444.us-east-1.elb.amazonaws.com"
+bastion_public_ip = "3.85.65.87"
+vpc_id = "vpc-0b49dbb67c5370b57"
